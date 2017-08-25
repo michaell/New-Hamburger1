@@ -1,6 +1,2 @@
 .gitignore
-node_modules
-
-*.json
-
-
+node_modules *json
