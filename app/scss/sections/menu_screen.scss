@@ -1,0 +1,69 @@
+.menu_screen {
+	background-image: url(../images/content/menu/menu_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+}
+
+.section_headline--menu {
+	position: absolute;
+	top: 90px;
+   left: 95px;
+}
+
+.verticals {
+	height: 100vh;
+	min-height: 650px;
+	display: flex;
+}
+
+.vertical_slice {
+	width: 80px;
+	writing-mode: vertical-rl;
+	color: white;
+	font-family: "Gagalin Regular";
+	font-size: 40px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 80px;
+}
+
+.vertical_slice__link {
+	display: block;
+	transform: rotate(180deg);
+}
+
+.vertical_slice__description {
+	color: white;
+	font-family: "Ubuntu Medium";
+	font-size: 14px;
+	font-weight: 300;
+	transform: rotate(-90deg);
+	line-height: 24px;
+	width: 500px;
+	opacity: 0.93;
+	background-color: #2f3234;
+	height: 100vh;
+	display: none;
+	
+}
+
+.vertical_slice--meat_eater {
+	background-image: url(../images/content/menu/vert1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.vertical_slice--vegeterian {
+	background-image: url(../images/content/menu/vert2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.vertical_slice--diet {
+	background-image: url(../images/content/menu/vert3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}

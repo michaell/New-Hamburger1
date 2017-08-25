@@ -1,0 +1,39 @@
+.we_screen {
+	background-image: url(../images/content/we_screen/we_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.section_headline--we_screen {
+	text-align: center;
+	margin-bottom: 76px;
+}
+
+.section_content--we_screen {
+	justify-content: center;
+}
+
+.advantage {
+	flex: 1;
+	text-align: center;
+	&:nth-child(-n+2) {
+		margin-right: 20px;
+	}
+}
+
+.advantage__pic {
+	width: 97px;
+	height: 90px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.advantage__img {
+}
+
+.advantage__headline {
+	font-family: "Lifehack Medium";
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 28px;
+}

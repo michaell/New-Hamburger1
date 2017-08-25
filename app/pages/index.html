@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hamburger</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+<div class="header-wrapper">
+	<div class="container">
+		<header class="header">
+			<div class="logo">
+				<img src="images/icons/logo.svg" alt="Mr. Burger" class="logo_img">
+			</div>
+			<div class="menu"> <!-- Семантический тек для меню здесь нужен. -->
+				<ul class="menu__list">
+					<li class="menu__item"><a href="#" class="menu__link">о нас</a></li> 
+					<li class="menu__item"><a href="#" class="menu__link">бургеры</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">команда</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">меню</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">отзывы</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">контакты</a></li>
+					<li class="menu__item menu__item--order"><a href="#" class="menu__link order_btn">заказать</a></li>
+				</ul>
+			</div>
+		</header>
+	</div>
+</div>
+	<div class="wrapper">
+		<section class="page_section first_screen"> <!-- Что это за название класса? А если завтра перед ним нужно будет вставить еще одни блок? -->
+			<div class="container">
+				<div class="section_content section_content--first_screen">
+					<div class="section_content__img">
+						<img src="images/content/first_screen/hamburger1.png" alt="hamburger image" class="section_content__hamburger">
+					</div>
+					<div class="section_content__descr">
+						<h1 class="section_headline section_headline--yellow">мы делаем</h1> <!-- Почему везде с маленкой буквы? Попробуй открыть совй сайт без стилей. Будет лучше, если первая буква бедт большой. -->
+						<h1 class="headline_first_screen">натуральные бургеры</h1>
+					</div>
+				</div>
+				<div class="arrow">
+					<img src="images/icons/arrow-scroll.svg" alt="">
+				</div>
+			</div>
+		</section>
+		<section class="page_section we_screen">
+			<div class="container">
+					<h1 class="section_headline section_headline--black section_headline--we_screen">мы лучшие</h1> 
+				<div class="section_content section_content--we_screen">
+					<div class="advantage">
+						<div class="advantage__pic">
+							<img src="images/icons/meat.svg" class="advantage__img" alt="свежее мясо">
+						</div>
+						<h2 class="advantage__headline">100%свежее мясо</h2>
+						<div class="advantage__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, eius, soluta similique eligendi aliquid qui officiis commodi minima assumenda distinctio accusamus amet, cumque repellat modi iste vero quas. Quae, doloremque.</div>
+					</div>
+					<div class="advantage">
+						<div class="advantage__pic">
+							<img src="images/icons/hand.svg" class="advantage__img" alt="ручная работа">
+						</div>
+						<h2 class="advantage__headline">Ручная работа</h2>
+						<div class="advantage__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At officia veritatis nobis doloribus facilis eos vel repudiandae laborum, adipisci recusandae!</div>
+					</div>
+					<div class="advantage">
+						<div class="advantage__pic">
+							<img src="images/icons/natural.svg" class="advantage__img" alt="натуральные ингридиенты">
+						</div>
+						<h2 class="advantage__headline">Натуральные ингридиенты</h2>
+						<div class="advantage__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, aspernatur et modi nostrum sint ullam saepe quam quas fugit. Necessitatibus ex earum nobis. Nobis explicabo quia impedit temporibus ad saepe animi, fuga molestiae alias consequatur autem dignissimos corporis odio atque!</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="page_section burgers_screen">
+			<div class="container">
+				<div class="section_content section_content--burger_screen">
+					<div class="section_content__burger_img">
+						<div class="composition_btn">
+							<div class="composition_btn__content">
+								<img src="images/icons/burger.svg" alt="" class="composition_btn__img">
+								<div class="composition_btn__desc">
+									состав
+								</div>
+							</div>
+						</div>
+						<img src="images/content/burgers/burger.png" alt="hamburger image" class="section_content__hamburger_black">
+						<div class="section_content__weight">
+							<img src="images/icons/kkal.svg" alt="" class="section_content__kkal">
+							<div class="section_content__weight_desc">
+								<div class="section_content__weight_number">
+									1200
+								</div>
+								<div class="section_content__weight_meaning">
+									ккал
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="section_content__burger">
+						<h1 class="section_headline section_headline--white section_headline--burger">Dark BEEF Burger</h1>
+						<div class="section_content__burger_description">
+							Ваш старый добрый знакомый, с рубленым бифштексом из 100% говядины, тремя кусочками нежнейшего сыра эмменталь, двумя помидорами, луком, салатом и соусом гриль теперь с добавлением экзотического соуса чураско.
+						</div>
+						<div class="section_content__burger_order">
+							<div class="section_content__burger_price">
+								<span class="number">500</span> <span class="currency">рублей</span>
+							</div>
+							<div class="section_content__burger_btn">
+								заказать
+							</div> <!-- Почему кнопочка div? -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="page_section team_screen">
+			<div class="team_wrapper">
+				<div class="container">
+					<div class="section_content section_content--team_screen">
+						<div class="section_content__team">
+							<h1 class="section_headline section_headline--yellow">Команда</h1>
+							<ul class="team_list">
+								<li class="team_list__item team_list__item--active">
+									<a href="" class="team_list__link">Дэниэл Редклиф</a>
+									<div class="team_list__sescription">
+										<div class="team_list__photo"></div>
+										<div class="team_list__text">
+											<div class="team_list__headline">
+												Оператор
+											</div>
+											<div class="team_list__headline_description"></div>
+											 С радостью поможет подобрать идеальный бургер и оформить заказ.
+										</div>
+									</div>
+								</li>
+								<li class="team_list__item">
+									<a href="" class="team_list__link">Ричард Джеймс</a>
+									<div class="team_list__sescription">
+										<div class="team_list__photo"></div>
+										<div class="team_list__text">
+											<div class="team_list__headline">
+												Оператор
+											</div>
+											<div class="team_list__headline_description"></div>
+											 С радостью поможет подобрать идеальный бургер и оформить заказ.
+										</div>
+									</div>
+								</li>
+								<li class="team_list__item">
+									<a href="" class="team_list__link">Джейк Финн</a> <!-- Зачем ссылка? М куда-то переходим? Это же просто аккордеон.  -->
+									<div class="team_list__sescription">
+										<div class="team_list__photo"></div>
+										<div class="team_list__text">
+											<div class="team_list__headline">
+												Оператор
+											</div>
+											<div class="team_list__headline_description"></div>
+											 С радостью поможет подобрать идеальный бургер и оформить заказ.
+										</div>
+									</div>
+								</li>
+								<li class="team_list__item">
+									<a href="" class="team_list__link">Николай Иванов</a>
+									<div class="team_list__sescription">
+										<div class="team_list__photo"></div>
+										<div class="team_list__text">
+											<div class="team_list__headline">
+												Оператор
+											</div>
+											<div class="team_list__headline_description"></div>
+											 С радостью поможет подобрать идеальный бургер и оформить заказ.
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="page_section menu_screen">
+			<div class="section_headline section_headline--white section_headline--menu">
+				Меню
+			</div>
+			<div class="verticals">
+				<div class="vertical_slice vertical_slice--meat_eater">
+					<a href="#" class="vertical_slice__link">для мясоедов</a>
+				<div class="vertical_slice__description">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure sapiente odit quis minus nihil odio nostrum quos praesentium nobis, fugit, provident et molestias a! Deserunt modi fuga quod odit ex! Assumenda quaerat at ut voluptatem, ducimus itaque unde mollitia inventore magni quam error necessitatibus dolor, eligendi libero. Aliquid, sequi soluta, voluptatum cum nostrum ea a eum dolor asperiores esse laborum dolore doloremque numquam dolorum eaque animi ipsum amet, porro dicta, molestiae nam! Quasi molestias distinctio esse sequi porro, aspernatur, pariatur error qui perspiciatis officia eveniet praesentium autem. Id praesentium asperiores veritatis, veniam dolorem quisquam odit qui, maxime totam, modi error?
+				</div>
+				</div>
+				<div class="vertical_slice vertical_slice--vegeterian">
+					<a href="#" class="vertical_slice__link">вегетарианское</a>
+				</div>
+				<div class="vertical_slice vertical_slice--diet">
+					<a href="#" class="vertical_slice__link">диетическое</a>
+				</div>
+			</div>
+	
+	
+	
+		</section>
+		<section class="page_section review_screen">
+			<div class="portraits_row portraits_row--first_row">
+				<div class="portraits_row__portrait face1">
+					<div class="portraits_row__background"></div>
+					<div class="portraits_row__review">
+						<h1 class="portraits_row__headline">Константин Спилберг</h1>
+						<div class="portraits_row__description">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius corporis deleniti aut animi, laborum unde reiciendis quis hic quibusdam sunt?
+						</div>
+						<div class="portraits_row__button">подробнее</div>
+						
+					</div>
+				</div>
+				<div class="portraits_row__portrait face2">
+					<div class="portraits_row__background"></div>
+					<div class="portraits_row__review">
+						<h1 class="portraits_row__headline">Константин Спилберг</h1>
+						<div class="portraits_row__description">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius corporis deleniti aut animi, laborum unde reiciendis quis hic quibusdam sunt?
+						</div>
+						<div class="portraits_row__button">подробнее</div>
+					</div>
+				</div>
+				<div class="portraits_row__portrait face3">
+					<div class="portraits_row__background"></div>
+					<div class="portraits_row__review">
+						<h1 class="portraits_row__headline">Константин Спилберг</h1>
+						<div class="portraits_row__description">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius corporis deleniti aut animi, laborum unde reiciendis quis hic quibusdam sunt?
+						</div>
+						<div class="portraits_row__button">подробнее</div>
+					</div>
+				</div>
+				<div class="portraits_row__portrait face4">
+					<div class="portraits_row__background"></div>
+					<div class="portraits_row__review">
+						<h1 class="portraits_row__headline">Константин Спилберг</h1>
+						<div class="portraits_row__description">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius corporis deleniti aut animi, laborum unde reiciendis quis hic quibusdam sunt?
+						</div>
+						<div class="portraits_row__button">подробнее</div>
+					</div>
+				</div>
+			</div>
+			<div class="portraits_row portraits_row--second_row">
+				<div class="portraits_row__portrait face5">
+					<div class="portraits_row__background"></div>
+					<div class="portraits_row__review">
+						<h1 class="portraits_row__headline">Константин Спилберг</h1>
+						<div class="portraits_row__description">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius corporis deleniti aut animi, laborum unde reiciendis quis hic quibusdam sunt?
+						</div>
+						<div class="portraits_row__button">подробнее</div>
+					</div>
+				</div>
+				<div class="portraits_row__portrait face6">
+					<div class="portraits_row__background"></div>
+					<div class="portraits_row__review">
+						<h1 class="portraits_row__headline">Константин Спилберг</h1>
+						<div class="portraits_row__description">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius corporis deleniti aut animi, laborum unde reiciendis quis hic quibusdam sunt?
+						</div>
+						
+						<div class="portraits_row__button">подробнее</div>
+					</div>
+				</div>
+				<div class="portraits_row__portrait face7">
+					<div class="portraits_row__background"></div>
+					<div class="portraits_row__review">
+						<h1 class="portraits_row__headline">Константин Спилберг</h1>
+						<div class="portraits_row__description">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius corporis deleniti aut animi, laborum unde reiciendis quis hic quibusdam sunt?
+						</div>
+						<div class="portraits_row__button">подробнее</div>
+					</div>
+				</div>
+				<div class="portraits_row__portrait face8">
+					<div class="portraits_row__background"></div>
+					<div class="portraits_row__review">
+						<h1 class="portraits_row__headline">Константин Спилберг</h1>
+						<div class="portraits_row__description">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius corporis deleniti aut animi, laborum unde reiciendis quis hic quibusdam sunt?
+						</div>
+						<div class="portraits_row__button">подробнее</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="page_section shipment_screen">
+			<div class="container">
+				<div class="section_content section_content--shipment_screen">
+					
+						<h1 class="section_headline section_headline--yellow section_headline--shipment">Закажите доставку</h1>
+					
+						<div class="order__form">
+							<form class="order__form-tag" id="order-form">
+								<div class="order__form-col">
+									<div class="order__form-row order__form-row_double">
+										<label class="order__form-block">
+											<div class="order__form-label">Имя</div>
+											<input class="order__form-input" name="name" type="text" placeholder="">
+										</label>
+										<label class="order__form-block">
+											<div class="order__form-label">Телефон</div>
+											<input class="order__form-input phone-mask" name="phone" type="text" placeholder="">
+										</label>
+									</div>
+									<div class="order__form-row">
+										<label class="order__form-block">
+											<div class="order__form-label">Улица</div>
+											<input class="order__form-input" name="street" type="text" placeholder="">
+										</label>
+									</div>
+									<div class="order__form-row order__form-row_quatro">
+										<label class="order__form-block">
+											<div class="order__form-label">Дом</div>
+											<input class="order__form-input" name="home" type="text" placeholder="">
+										</label>
+										<label class="order__form-block">
+											<div class="order__form-label">Корпус</div>
+											<input class="order__form-input" name="part" type="text" placeholder="">
+										</label>
+										<label class="order__form-block">
+											<div class="order__form-label">Квартира</div>
+											<input class="order__form-input" name="appt" type="text" placeholder="">
+										</label>
+										<label class="order__form-block">
+											<div class="order__form-label">Этаж</div>
+											<input class="order__form-input" name="floor" type="text" placeholder="">
+										</label>
+									</div>
+								</div>
+								<div class="order__form-col">
+									<div class="order__form-row">
+										<label class="order__form-block">
+											<div class="order__form-label">Комментарий</div>
+											<textarea class="order__form-input order__form-input_textarea" name="comment"></textarea>
+										</label>
+									</div>
+									<div class="order__form-row">
+										<label class="order__radio">
+											<input class="order__radio-elem" name="payment" type="radio">
+											<div class="order__radio-fake"></div>
+											<div class="order__radio-title">Потребуется сдача</div>
+										</label>
+										<label class="order__radio">
+											<input class="order__radio-elem" name="payment" type="radio">
+											<div class="order__radio-fake"></div>
+											<div class="order__radio-title">Оплата по карте</div>
+										</label>
+									</div>
+									<div class="order__form-row">
+										<label class="order__radio order__radio_checkbox">
+											<input class="order__radio-elem" name="callback" type="checkbox">
+											<div class="order__radio-fake"></div>
+											<div class="order__radio-title">Не перезванивать</div>
+										</label>
+									</div>
+									<div class="order__form-row">
+										<input class="order__form-button btn" name="" type="submit" value="Заказать">
+										<input class="order__form-button order__form-button_reset" name="" type="reset" value="Очистить">
+									</div>
+								</div>
+							</form>
+						</div>
+					
+				</div>
+			</div>
+		</section>
+	</div>
+</body>
+</html>
