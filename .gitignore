@@ -1,2 +1,7 @@
 .gitignore
 node_modules
+app
+
+gulpfile.js
+package-lock.json
+package-lock.json
