@@ -1,7 +1,14 @@
 .gitignore
 node_modules
+
+.gitignore
 app
 
+.gitignore
 gulpfile.js
+
+.gitignore
 package-lock.json
+
+.gitignore
 package-lock.json
